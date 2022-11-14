@@ -55,7 +55,7 @@ Run `main.py` for training and evaluating the model.
 Please cite our paper if you use the code:
 
 ```
-@misc{yeganegi2022star,
+@inproceedings{yeganegi2022star,
     title={STAR: A Session-Based Time-Aware Recommender System},
     author={Reza Yeganegi and Saman Haratizadeh},
     year={2022},
