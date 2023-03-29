@@ -36,7 +36,7 @@ class STAR(nn.Module):
         
         hidden_states = self.module_2(embeddings[0])
         b_embedding, a_embedding = self.module_3(embeddings[1], embeddings[2], embeddings[3],
-                                                 embeddings[4], embeddings[4], embeddings[6])
+                                                 embeddings[4], embeddings[5], embeddings[6])
         
         weighted_features = self.module_4(hidden_states, b_embedding, a_embedding)
         final_hidden = self.module_5(weighted_features[0], weighted_features[1],
